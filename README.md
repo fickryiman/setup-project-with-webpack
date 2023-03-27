@@ -32,12 +32,14 @@ HTML template
 </html>
 ```
 * Then modify webpack.config.js to point HtmlWebpackPlugin towards your template file:
+```
 plugins: [
   new HtmlWebpackPlugin({
 -   title: 'Output Management',
 +   template: './src/index.html',
   }),
 ],
+```
 * You could remove the title property as well (as shown above), because you have set the page title in your /src/index.html.
 * Run npm run build to update the /dist/index.html.
 View the /dist/index.html file in a code editor and notice how webpack inserted a <script> tag with correct path and minified the HTML for better performance.
