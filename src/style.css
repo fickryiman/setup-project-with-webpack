@@ -1,0 +1,10 @@
+body {
+  background-color: bisque;
+}
+
+.hello {
+  color: rgb(68, 95, 215);
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
