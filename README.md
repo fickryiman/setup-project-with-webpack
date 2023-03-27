@@ -45,6 +45,7 @@ plugins: [
 View the /dist/index.html file in a code editor and notice how webpack inserted a <script> tag with correct path and minified the HTML for better performance.
 
 Add CSS
+
 The next step in building your webpack boilerplate is to add some style to it. Follow the steps in loading CSS guide (https://webpack.js.org/guides/asset-management/#loading-css).
 
 * In your style.css file add a generic rule, like:
@@ -54,6 +55,7 @@ body {
 * Next, execute npm run build and check if the HTML body style has changed.
 
 Setup local dev server
+
 Finally, it's time to improve your developer experience. When working on the project you will not want to run the build command from the terminal every time you make a change in the code. Therefore go ahead and install a webpack dev server, which will watch your source files, generate compiled distribution files and even refresh the browser every time you save changes in the source code.
 
 * Follow the using webpack-dev-server guide (https://webpack.js.org/guides/development/#using-webpack-dev-server) and set it up on your local machine. Again, be cautious with updating the module.exports object in your webpack.config.js.
