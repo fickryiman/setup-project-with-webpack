@@ -18,7 +18,8 @@ npm run build
 HTML template
 * If you plan to write some HTML in your project, it's easiest to do it with a template. Create a /src/index.html in which you can write your markup. Add some basic page markup, like:
 
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,7 +29,8 @@ HTML template
 <body>
     <h1>Hello webpack!</h1>
 </body>
-</html>```
+</html>
+```
 * Then modify webpack.config.js to point HtmlWebpackPlugin towards your template file:
 plugins: [
   new HtmlWebpackPlugin({
