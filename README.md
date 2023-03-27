@@ -1,7 +1,9 @@
 # setup-project-with-webpack
-build a simple yet powerful webpack boilerplate, which I can later use as a starting point in your projects
+Build a simple yet powerful webpack boilerplate, which I can later use as a starting point in your projects
 
-Instructions
+
+Instructions:
+
 Initialize a new project and install webpack
 * First set up a new GitHub repository for this exercise.
 * Follow the instructions from the getting started guide (https://webpack.js.org/guides/getting-started/#basic-setup) to set up the basics. Implement all the steps from Basic Setup to NPM Scripts.
